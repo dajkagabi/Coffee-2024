@@ -1,51 +1,73 @@
-.navbar {
-    padding: 0.2rem ;
-    background-color: #f8f9fa; 
-    display: flex;
-    justify-content: space-evenly; /* A logó és a menüsor közötti távolság */
+* {
     font-family: Arial, sans-serif;
- 
-}
-
-
-#logo {
-    height: 65px; 
-    margin-right: 1rem; /* Kisebb távolság a logó mellett */
-}
-
-
-.navbar-nav {
-    margin-left: auto; /* Menüsor jobbra igazítása */
+  }
+  
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer .form-inline {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-}
-
-.nav-link {
-    margin: 0 0.5rem; 
-    color: #3d2412 !important; 
-    text-transform: uppercase; 
-    text-decoration: none; 
-    font-size: large ;
-}
-
-
-.nav-link:hover {
-    color: #895129; 
-}
-
-
-
-
-@media (max-width: 768px) {
-    .navbar-nav {
-        flex-direction: column; 
+  }
+  
+  footer .form-control {
+    margin-bottom: 10px;
+  }
+  
+  footer .form-inline label {
+    font-weight: bold;
+    color: #3d2412; 
+    margin-right: 10px;
+  }
+  
+  
+  footer .footer-btn {
+    background-color: #3d2412; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+    margin: 10px;
+    border-radius: 12px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  footer .footer-btn:hover {
+    background-color: #533b28; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    footer .footer-btn {
+      padding: 8px 16px; 
+      font-size: 12px; 
     }
     
-    .nav-link {
-        padding: 0.5rem 1rem; 
-        text-align: center; 
-        border-bottom: 1px solid #e9ecef; 
+    footer .form-control {
+      width: 100%; 
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    footer .footer-btn {
+      padding: 6px 12px; 
+      font-size: 10px; 
     }
     
-   
-}
+    footer .form-control {
+      width: 100%; 
+      margin-bottom: 10px;
+    }
+  }
+  

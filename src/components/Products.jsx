@@ -1,5 +1,6 @@
-
 import data from "./data/coffeeData.json";
+import './styles/Products.css';
+
 
 function Products() {
   return (

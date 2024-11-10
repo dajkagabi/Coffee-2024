@@ -1,0 +1,43 @@
+/* Alap stílusok a kártyákhoz */
+.card {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+.card-title, .card-text{
+    color: #3d2412;
+    
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card-title{
+    font-weight: bold;
+    
+}
+
+
+  /* Fixált magasság a képekhez */
+  .card-img-top {
+    height: 250px; /* Növeljük a kívánt magasságot */
+    object-fit: cover; /* Megtartja az arányokat és kitölti a konténert */
+    width: 100%; /* Biztosítja, hogy a kép teljes szélességben megjelenjen */
+  }
+  
+  /* Reszponzív stílusok */
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: 200px; /* Kicsit kisebb magasság a kisebb eszközökre */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-img-top {
+      height: 150px; /* Még kisebb magasság a legkisebb eszközökre */
+    }
+  }
+  

@@ -4,35 +4,45 @@
       "name": "Espresso",
       "description": "Strong and concentrated coffee",
       "category": "Espresso",
-      "image": "espresso.jpg"
+      "image": "/images/expresszo.jpg"
     },
+
     {
-      "id": 2,
+        "id": 2,
+        "name": "Double-Espresso",
+        "description": "A double espresso is a strong, concentrated coffee with a rich, intense flavor.",
+        "category": "Espresso",
+        "image": "/images/double expresszo.jpg"
+      },
+
+
+    {
+      "id": 3,
       "name": "Latte",
       "description": "Espresso with steamed milk",
       "category": "Latte",
-      "image": "/image/latte.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Cappuccino",
-      "description": "Espresso with steamed milk and foam",
-      "category": "Cappuccino",
-      "image": "cappuccino.jpg"
+      "image": "/images/latte.jpg"
     },
     {
       "id": 4,
-      "name": "Americano",
-      "description": "Espresso with added hot water",
-      "category": "Americano",
-      "image": "americano.jpg"
+      "name": "Cappuccino",
+      "description": "Espresso with steamed milk and foam",
+      "category": "Cappuccino",
+      "image": "/images/cappuccino.jpg"
     },
     {
       "id": 5,
+      "name": "Americano",
+      "description": "Espresso with added hot water",
+      "category": "Americano",
+      "image": "/images/americano.jpg"
+    },
+    {
+      "id": 6,
       "name": "Mocha",
       "description": "Espresso with chocolate and steamed milk",
       "category": "Mocha",
-      "image": "mocha.jpg"
+      "image": "/images/mocha.jpg"
     }
   ]
   

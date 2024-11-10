@@ -1,0 +1,62 @@
+/* Alapértelmezett stílusok */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .form-inline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .form-control {
+  margin-bottom: 10px;
+}
+
+/* Styling the button */
+footer .footer-btn {
+  background-color: #3d2412; /* A kért szín */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px; /* Csökkentett betűméret */
+  margin: 10px;
+  border-radius: 12px; /* Lekerekített gomb */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+footer .footer-btn:hover {
+  background-color: #533b28; /* Módosított háttérszín hover esetén */
+}
+
+/* Reszponzív stílusok */
+@media (max-width: 768px) {
+  footer .footer-btn {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+  
+  footer .form-control {
+    width: 100%; /* Ensure form elements fit smaller screens */
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .footer-btn {
+    padding: 6px 12px; /* Further adjust padding for smallest screens */
+    font-size: 10px; /* Further adjust font size for smallest screens */
+  }
+  
+  footer .form-control {
+    width: 100%; /* Ensure form elements fit smallest screens */
+    margin-bottom: 10px;
+  }
+}

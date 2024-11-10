@@ -1,12 +1,23 @@
+import { Link } from "react-router-dom";
+import "./styles/Home.css"; // Ensure this path is correct
 
-
-const Home = () => {
+function Home() {
   return (
-    <div>
-      <h1>Welcome to the Home Page!</h1>
-      <p>This is the main page of the app.</p>
+    <div className="home-container">
+    
+  
+    <div className="video-container">
+       <video className="video" autoPlay loop muted>
+          <source src="/videos/home.mp4" type="video/mp4" />
+       </video>
+       <div className="video-overlay">
+          <h1>Your Perfect Coffee Awaits</h1>
+          <Link to="/products" className="home-btn">Coffee Time</Link> 
+       </div>
     </div>
+ </div>
+ 
   );
-};
+}
 
 export default Home;
