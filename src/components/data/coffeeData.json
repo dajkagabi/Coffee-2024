@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Espresso",
+      "description": "Strong and concentrated coffee",
+      "category": "Espresso",
+      "image": "espresso.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Latte",
+      "description": "Espresso with steamed milk",
+      "category": "Latte",
+      "image": "/image/latte.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cappuccino",
+      "description": "Espresso with steamed milk and foam",
+      "category": "Cappuccino",
+      "image": "cappuccino.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Americano",
+      "description": "Espresso with added hot water",
+      "category": "Americano",
+      "image": "americano.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mocha",
+      "description": "Espresso with chocolate and steamed milk",
+      "category": "Mocha",
+      "image": "mocha.jpg"
+    }
+  ]
+  
