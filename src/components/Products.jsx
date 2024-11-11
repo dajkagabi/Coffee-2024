@@ -15,7 +15,7 @@ function Products() {
                 <h5 className="card-title">{coffee.name}</h5>
                 <p className="card-text">{coffee.description}</p> 
                 <div className="d-flex justify-content-between align-items-center">
-                  <p className="card-price mb-0">${coffee.price}</p>
+                  <p className="card-price">{coffee.price}$</p>
                   <button className="btn btn-primary cart-button">
                     <FontAwesomeIcon icon={faCartShopping} />
                   </button>
