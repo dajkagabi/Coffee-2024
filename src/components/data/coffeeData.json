@@ -4,15 +4,17 @@
       "name": "Espresso",
       "description": "Strong and concentrated coffee",
       "category": "Espresso",
-      "image": "/images/expresszo.jpg"
-    },
+      "image": "/images/expresszo.jpg",
+      "price": 2.55
+      },
 
     {
         "id": 2,
         "name": "Double-Espresso",
         "description": "A double espresso is a strong, concentrated coffee with a rich, intense flavor.",
         "category": "Espresso",
-        "image": "/images/double expresszo.jpg"
+        "image": "/images/double expresszo.jpg",
+        "price": 4.55
       },
 
 
@@ -21,28 +23,32 @@
       "name": "Latte",
       "description": "Espresso with steamed milk",
       "category": "Latte",
-      "image": "/images/latte.jpg"
+      "image": "/images/latte.jpg",
+      "price": 12.22
     },
     {
       "id": 4,
       "name": "Cappuccino",
       "description": "Espresso with steamed milk and foam",
       "category": "Cappuccino",
-      "image": "/images/cappuccino.jpg"
+      "image": "/images/cappuccino.jpg",
+      "price": 14.22
     },
     {
       "id": 5,
       "name": "Americano",
       "description": "Espresso with added hot water",
       "category": "Americano",
-      "image": "/images/americano.jpg"
+      "image": "/images/americano.jpg",
+      "price": 10.55
     },
     {
       "id": 6,
       "name": "Mocha",
       "description": "Espresso with chocolate and steamed milk",
       "category": "Mocha",
-      "image": "/images/mocha.jpg"
+      "image": "/images/mocha.jpg",
+      "price": 18.22
     }
   ]
   

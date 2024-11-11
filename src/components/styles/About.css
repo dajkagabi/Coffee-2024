@@ -1,0 +1,41 @@
+
+.text-color {
+    color: #3d2412;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify; 
+    color: #3d2412;
+  }
+  
+ 
+  .container {
+    margin-top: 3rem;
+  }
+  
+  
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .img-fluid.align-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: rgba(61 36, 18) 0px 5px 15px;
+    border-radius: 15px;
+  }
+  
