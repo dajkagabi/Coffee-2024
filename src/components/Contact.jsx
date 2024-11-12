@@ -13,7 +13,7 @@ const Contact = () => {
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">Email:</label>
-              <input type="e-mail" className="form-control" id="email" name="email" />
+              <input type="email" className="form-control" id="email" name="email" />
             </div>
             <div className="mb-3">
               <label htmlFor="message" className="form-label">Message:</label>
@@ -22,8 +22,8 @@ const Contact = () => {
             <button type="submit" className="btn btn-primary">Send</button>
           </form>
         </div>
-        <div className="col-md-6">
-            {/**<img src="./public/images/contact.jpg" alt="Contact" className="img-fluid" /> */}    
+        <div className="col-md-6 d-flex justify-content-end"> 
+          <img src="./public/images/contact.jpg" alt="Contact" className="contact-image img-fluid" /> 
         </div>
       </div>
     </div>
