@@ -3,17 +3,17 @@
 }
 
 .contact-image {
-    width: 80%; /* Kép szélessége a szülő elem 80%-a */
-    max-width: 300px; /* Maximális szélesség */
-    height: auto; /* Magasság automatikus */
-    border-radius: 15px; /* Lekerekített sarkok */
-    margin-bottom: 20px; /* Térköz a kép alatt */
+    width: 80%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 15px; 
+    margin-bottom: 20px; 
 }
 
 
 
 @media (max-width: 768px) {
     .contact-image {
-        width: 90%; /* Mobilon a kép szélessége 90% */
+        width: 90%;
     }
 }

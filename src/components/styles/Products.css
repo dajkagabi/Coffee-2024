@@ -1,4 +1,4 @@
-/* Alap stílusok a kártyákhoz */
+
 .card {
     margin-bottom: 20px;
     display: flex;
@@ -20,24 +20,33 @@
     
 }
 
+.cart-button{
+  border-color: #3d2412;
+  background-color: #3d2412;
+  color: #fff;
+}
 
-  /* Fixált magasság a képekhez */
+.cart-button:hover{
+  background-color: #3d2412;
+  color: #fff;
+}
+  
   .card-img-top {
-    height: 250px; /* Növeljük a kívánt magasságot */
-    object-fit: cover; /* Megtartja az arányokat és kitölti a konténert */
-    width: 100%; /* Biztosítja, hogy a kép teljes szélességben megjelenjen */
+    height: 250px; 
+    object-fit: cover; 
+    width: 100%; 
   }
   
-  /* Reszponzív stílusok */
+  
   @media (max-width: 768px) {
     .card-img-top {
-      height: 200px; /* Kicsit kisebb magasság a kisebb eszközökre */
+      height: 200px; 
     }
   }
   
   @media (max-width: 576px) {
     .card-img-top {
-      height: 150px; /* Még kisebb magasság a legkisebb eszközökre */
+      height: 150px; 
     }
   }
   
