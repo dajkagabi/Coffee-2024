@@ -1,8 +1,5 @@
-# React + Vite
+# Coffee
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A "Coffee-2024" projekt React és Vite alapú, és a Bootstrap keretrendszert használja a reszponzív dizájn megvalósításához. Az alkalmazás célja, hogy egy modern, interaktív kávézó weboldalt hozzon létre, amely könnyen kezelhető, és szép megjelenést biztosít a felhasználók számára. A projektben terméklisták, kapcsolatfelvételi űrlapok és egyéb webes komponensek találhatóak, amelyek lehetővé teszik a felhasználók számára, hogy könnyedén navigáljanak a weboldalon.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A Bootstrap használatának köszönhetően az oldal reszponzív és gyorsan alkalmazkodik különböző eszközökhöz. A React és Vite kombinációja biztosítja a gyors fejlesztést és a dinamikus felhasználói élményt. 
